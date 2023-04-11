@@ -12,6 +12,7 @@ app.get('/', (req, res) => {
   res.send('Hello World!')
 })
 
+//API ROUTES
 app.use('/api', apiRouter);
 
 server.listen(port, () => {
