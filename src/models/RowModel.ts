@@ -1,7 +1,8 @@
-export class RowModel{
+class RowModel {
     Columns: Array<string>;
 
-    constructor(columns: Array<string> ) {
+    constructor(columns: Array<string>) {
         this.Columns = columns;
     }
 }
+export { RowModel }
