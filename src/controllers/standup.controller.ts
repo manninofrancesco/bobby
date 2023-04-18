@@ -1,4 +1,4 @@
-import { StandupService } from '../services/standup.service';
+import { StandupService } from '../services/standup.service.js';
 
 class StandupController {
     getStandupTable = async (req, res, next) => {

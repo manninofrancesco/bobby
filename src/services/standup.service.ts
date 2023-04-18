@@ -1,5 +1,5 @@
-import { RowModel } from '../models/RowModel'
-import { TableModel } from '../models/TableModel'
+import { RowModel } from '../models/RowModel.js'
+import { TableModel } from '../models/TableModel.js'
 
 class StandupService {
   getStandupTable = async () => {

@@ -3,7 +3,7 @@
         "outDir": "./dist",
         "allowJs": true,
         "target": "esnext",
-        "module": "esnext",
+        "module": "esnext", //default
         "moduleResolution": "nodenext",
         "esModuleInterop": true
     },

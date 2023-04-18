@@ -1,11 +1,11 @@
 import express from 'express';
 import https from 'https';
 import fs from 'fs';
-const key = fs.readFileSync('./certs/localhost+1-key.pem');
-const cert = fs.readFileSync('./certs/localhost+1.pem');
+const key = fs.readFileSync('../certs/localhost+1-key.pem');
+const cert = fs.readFileSync('../certs/localhost+1.pem');
 const app = express()
 const server = https.createServer({ key: key, cert: cert }, app);
-import { router } from './src/routes/routes'
+import { router } from './routes/routes.js'
 const port = 3000
 
 app.get('/', (req, res) => {

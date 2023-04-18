@@ -3,7 +3,8 @@
     "express": "^4.18.2"
   },
   "devDependencies": {
-    "@types/node": "^18.15.11"
+    "@types/node": "^18.15.11",
+    "typescript": "^5.0.4"
   },
   "type": "module",
   "main": "app.ts"
